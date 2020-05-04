@@ -1,13 +1,12 @@
-::backdrop{
-    background-color: red;
-    enable-background: 0px;
-}
+
 
 
 body {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box !important;
     background: #fbf9f5;
+    background-image: url(images/sterling\ logo.png);
+    background-color: red;
 
 }
 .nav-item img{
