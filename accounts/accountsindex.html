@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>account details page</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Inter|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a6eae61af6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="accounts.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Nav Bar starts -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src=".images" width="30" height="30" class="d-inline-block align-top" alt="">
+                Risk Asset Monitor
+              </a>
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <img src="/images/sterling single logo.png" alt="">
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Welcome {User}</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Home</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+        </nav>
+        <!-- nav bar ends -->
+
+        <!--main body starts -->
+        <div class="main-body">
+            <div class="main-body-content">
+                <div class="main-content">
+                    <h2 class="page-title">KADUNA REFINERY RISK ASSET ACCOUNTS</h2>
+                    
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label for="selectIndustry">Account Numbers </label>
+                            <select class="form-control" id="selectUnit">
+                            <option>0051''''''</option>
+                            <option>0012''''''</option>
+                            <option>0071''''''</option>
+                            <option>0051''''''</option>
+                            <option>0012''''''</option>
+                            <option>0074''''''</option>
+                            <option>0072''''''</option>
+                            <option>0051''''''</option>
+                            <option>0012''''''</option>
+                            </select>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="selectIndustry"> Account Name </label>
+                                <select class="form-control" id="selectUnit">
+                                </select>
+                            </div> 
+                        </div>
+                        <div class="col-md-2 form-group">
+                            <label for="selectmonth">Loan Type</label>
+                            <select class="form-control" id="selectday">
+                                <option>Asset Finance</option>
+                                <option>Buisness Support Facility</option>
+                                <option>Specta</option>
+                                <option>School Support Facility</option>
+                                <option>LPO</option>
+                                <option>Agricultural Support Facilty</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 form-group">
+                            <label for="selectmonth">Next Repayment Date</label>
+                            <select class="form-control" id="selectday">
+                                <option>Day</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 form-group">
+                            <label for="activitymonth">&emsp;</label>
+                            <select class="form-control" id="selectmonth">
+                                <option>Month</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 form-group">
+                            <label for="reportyear">&emsp;</label>
+                        <select class="form-control" id="year">
+                            <option>Year</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label for="observationText">Contact Address</label>
+                            <textarea class="form-control" id="observationText" rows="2"></textarea>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="descriptonText">K Y C </label>
+                            <textarea class="form-control" id="descriptionText" rows="2"></textarea>
+                        </div>                          
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label for="actionText">Phone Number</label>
+                            <textarea class="form-control" id="actionText" rows="1"></textarea>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="descriptonText">Repayment Status </label>
+                            <select class="form-control" id="year">
+                                <option>Watchlisted</option>
+                                <option>Deliquent</option>
+                                <option>Loan Repayment Up to Date</option>                                
+                            </select>
+                        </div>                          
+                    </div>    
+                    <div class="button-group">
+                        <a class="btn btn-big btn-primary" href="#" >Send Reminder</a>
+                    </div> 
+                </form>
+            </div>      
+            <div class="button-group">
+                <a class="btn btn-big btn-primary" href="#" >BACK</a>
+            </div>    
+                               
+        </div>
+        <!-- // main body ends -->
+
+        <!-- Footer starts -->
+        <footer>
+            <div class="mt-2 pt-2 pb-5 footer">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    
+    
+    
+</body>
+</html>    
+        
+
+
